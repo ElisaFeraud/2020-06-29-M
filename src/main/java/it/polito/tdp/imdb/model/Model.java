@@ -105,21 +105,12 @@ private void recursive(List<Director> parziale, ArrayList<Director> registi, int
 			}
 		}
 	}
-	/*
+	
 	 
 		
-		for(Player p : players) {
-			if(!partial.contains(p)) {
-				partial.add(p);
-				//i "battuti" di p non possono più essere considerati
-				List<Player> remainingPlayers = new ArrayList<>(players);
-				remainingPlayers.removeAll(Graphs.successorListOf(graph, p));
-				recursive(partial, remainingPlayers, k);
-				partial.remove(p);
-				
-			}
-		}
-	 */
+		
+		
+	 
 }
 private int calcolaSomma(List<Director> parziale) {
 	// TODO Auto-generated method stub
@@ -135,4 +126,8 @@ private int calcolaSomma(List<Director> parziale) {
  public int getBestNumero() {
 	 return bestNumero;
  }  
+ public void metodoInutile() {
+	 List<Director> inutile;
+	 
+ }
 }

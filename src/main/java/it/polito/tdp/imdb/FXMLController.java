@@ -91,6 +91,7 @@ public class FXMLController {
     	
     	this.model = model;
     	this.boxAnno.getItems().addAll(2004,2005,2006);
+    	
     }
     
 }
