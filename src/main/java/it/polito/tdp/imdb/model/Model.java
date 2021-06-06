@@ -126,8 +126,5 @@ private int calcolaSomma(List<Director> parziale) {
  public int getBestNumero() {
 	 return bestNumero;
  }  
- public void metodoInutile() {
-	 List<Director> inutile;
-	 
- }
+
 }
